@@ -1,0 +1,18 @@
+* Cadastrar usuário (na aba funcionário)
+* Liberar acessos ao usuário (na aba controle de acesso)
+* Cadastrar cliente (na aba cadastro de clientes)
+* Desbloquear cliente (na aba cliente -> tipo de cliente)
+* Cadastrar o local do estoque (usar uma loja que esteja cadastrada)
+* Cadastrar fornecedor
+* Cadastrar produto 
+* Cadastrar NCM (são oito digitos e vem na nota fiscal) / também pode pesquisar na internet / pesquisar no botão carregar tabela NCM.
+* Entradas de notas fiscais: Na aba compras -> entradas de NFe ->  clica em incluir -> informe o número da nota fiscal (vai está na nota fiscal) -> tipo NFe -> informe o estoque origem (local do estoque) -> informe o fornecedor -> informe a data de emissão da nota fiscal -> a data de entrada -> valor total dos produtos -> valor total da NFe -> informe a condição de pagamento -> modelo da nota fiscal (cód. 55) -> série, após clica em salvar. (cabelhaço estará preenchido)
+Em seguida preencher os valores de impostos da NFe: clica em rodapé -> preencher a chave de acesso -> informar a base de cálculo do ICMS -> 47 e 29 -> o valor do ICMS -> preencher a base de cálculo do ICMS de substituição -> valor de ICMS de substituição tributário (se caso, estiver na nota) -> após clique em gravar, para salvar as informações do rodapé -> em seguida fechar, para sair da tela.
+Parte da inclusão dos produtos: na aba itens da nota fiscal -> clica em incluir -> f9 para pesquisar os produtos cadastrado -> informe a quantidade (campo: quantidade caixa) e valor unitário -> clica em gravar -> (caso desejar adicionar outro item, clica f9 e faz o mesmo processo. -> se não estiver mais itens para adicionar a NFe -> clica em cancelar. 
+Parte da inclusão dos impostos dos produtos: seleciona o primeiro produto -> clica na aba item tributos -> informe a situação tributária do icms (é o mesmo que o cst que está na nota fiscal)-> informe a alquota do icms -> informe a base de cálculo do icms -> o valor do icms (todas essas informações consta no DANFE) -> se a nota tiver o valor de substituição tributária, irá informar nos campos abaixo -> digitando o percentual de redução a aliquota  do icms de substituição tributária -> o valor da base de cálculo de icms de substituição tributária -> o valor do icms de substituição tributária. Em seguida, preencha os impostos pis cofins -> informe a situação tributária do pis e cofins -> informe a base de cálculo alquota e valor de ambos (pis e cofins) (verificar se na NFe está como insento -> preencha a situação tributária do ipi e se for o caso, preencha a base de cálculo aliquota e valor (a situação tributária da nota fiscal que estamos preenchendo é: NÃO DESTACAR IPI na NFe -> após preenchida as informações: clica em gravar -> depois fazer o mesmo processo nos outros produtos cadastrado.
+Após preenchido todas as informações -> preencher a aba 2 que é o desdobramento das duplicatas: neste item poderá fazer o lançamento do contas a pagar da nota fiscal, para isso clica em INCLUIR -> informe o valor e a quantidade de parcelas, depois clica OK -> (verificar como funciona o lançamento do contas a pagar) -> após feito esse processo clique em OPÇÕES DA NOTA FISCAL -> em seguida FECHAR NOTA FISCAL, confirme o fechamento da NFe e informe o seu usuário (no caso o que foi cadastrado no início que é o cadastro de funcionário) e senha de acesso, para liberar o fechamento, logo em seguida a nota fiscal estará fechada. Esse último processo de fechamento da nota fiscal é crucial, pois se não feito o estoque da mercadoria que está sendo lançada não será processado. 
+Ainda tem a opção de fazer o lançamento da nota fiscal pelo arquivo da nota xml (que não é o caso da prova).
+
+ 
+
+
